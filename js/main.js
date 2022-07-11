@@ -5,9 +5,9 @@ const list = [
     'burro', 
     'marmellata'
 ];
-const listaSpesa = document.getElementById('listaSpesa');
+const shoppingList = document.getElementById('shoppingList');
 let x = 0;
 while(x < list.length) {
-    listaSpesa.innerHTML += `<li>${list[x]}</li>`;
+    shoppingList.innerHTML += `<li>${list[x]}</li>`;
     x++;
 }
